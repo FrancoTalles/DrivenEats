@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+
+.corpotodo {
+  width: 100%;
+  height: auto;
+  background-color: #e5e5e5;
+}
+
+.topo {
+  height: 92px;
+  background-color: red;
+}
+
+.topo h1 {
+  font-size: 44px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding-top: 8px;
+  padding-left: 21px;
+}
+
+.topo h2 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-left: 21px;
+}
+
+.PratosTopo {
+  font-size: 26px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  color: #333333;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.Pratos {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.prato {
+  width: 172px;
+  height: 216px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  margin-top: 17px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.imgprato {
+  margin: 18px 14px 8px 14px;
+  border-radius: 5px;
+}
+
+.nomeprato {
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333333;
+}
+
+.descrição {
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 6px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #a6a6a6;
+}
+
+.preço {
+  margin-left: 14px;
+  margin-right: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
