@@ -69,6 +69,8 @@
 .imgprato {
   margin: 18px 14px 8px 14px;
   border-radius: 5px;
+  width: 144px;
+  height: 87px;
 }
 
 .nomeprato {
