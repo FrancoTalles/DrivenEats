@@ -14,6 +14,7 @@
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 10000;
 }
 
 .topo h1 {
@@ -54,9 +55,21 @@
   overflow-x: scroll;
 }
 
-.prato,
-.bebida,
-.sobremesa {
+.prato1,
+.prato2,
+.prato3,
+.prato4,
+.prato5,
+.bebida1,
+.bebida2,
+.bebida3,
+.bebida4,
+.bebida5,
+.sobremesa1,
+.sobremesa2,
+.sobremesa3,
+.sobremesa4,
+.sobremesa5 {
   width: 172px;
   height: 216px;
   margin-left: 20px;
@@ -73,7 +86,21 @@
   height: 87px;
 }
 
-.nomeprato {
+.nomeprato1,
+.nomeprato2,
+.nomeprato3,
+.nomeprato4,
+.nomeprato5,
+.nomebebida1,
+.nomebebida2,
+.nomebebida3,
+.nomebebida4,
+.nomebebida5,
+.nomesobremesa1,
+.nomesobremesa2,
+.nomesobremesa3,
+.nomesobremesa4,
+.nomesobremesa5 {
   margin-left: 14px;
   margin-right: 14px;
   margin-bottom: 5px;
@@ -93,7 +120,21 @@
   color: #a6a6a6;
 }
 
-.preço {
+.preço1,
+.preço2,
+.preço3,
+.preço4,
+.preço5,
+.preco1,
+.preco2,
+.preco3,
+.preco4,
+.preco5,
+.prec01,
+.prec02,
+.prec03,
+.prec04,
+.prec05 {
   margin-left: 14px;
   margin-right: 14px;
   font-family: "Roboto", sans-serif;
@@ -115,6 +156,10 @@
 
 .Sobremesas {
   margin-bottom: 92px;
+  padding-bottom: 20px;
+}
+
+.Pratos, .Bebidas{
   padding-bottom: 20px;
 }
 
@@ -144,5 +189,30 @@
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 8px;
+}
 
+.selecionado {
+  border: 2px solid green;
+  box-shadow: 3px 5px grey;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.prato1,
+.prato2,
+.prato3,
+.prato4,
+.prato5 {
+  position: relative;
+}
+
+.check {
+  position: absolute;
+  right: 10px;
+}
+
+.ncheck {
+  position: absolute;
+  right: 10px;
+  display: none;
 }

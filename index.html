@@ -14,10 +14,10 @@
       <h2>Sua comida em 6 minutos</h2>
     </div>
     <div class="Finalizar">
-      <div class="FinalDiv">
-          <div class="textofinal">
-            Selecione os 3 itens<br>para fechar o pedido
-          </div>
+      <div class="FinalDiv" onclick="enviarMensagem()">
+        <div class="textofinal">
+          Selecione os 3 itens<br />para fechar o pedido
+        </div>
       </div>
     </div>
     <div class="corpotodo">
@@ -25,225 +25,165 @@
         <h1>Primeiro, seu prato</h1>
       </div>
       <div class="Pratos">
-        <div class="prato">
+        <div class="prato1" onclick="SelecionarComida(this)">
           <div>
             <img src="imagens/Comida/Frango Yin Yang.png" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Frango Yin Yang</h1>
-          </div>
+          <div class="nomeprato1">Frango Yin Yang</div>
           <div class="descrição">
             <h1>Um pouco de batata, um pouco de salada</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 14,90</h1>
-          </div>
+          <div class="preço1">R$ 14,90</div>
         </div>
-        <div class="prato">
+        <div class="prato2" onclick="SelecionarComida(this)">
           <div>
             <img src="imagens/Comida/Carne.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Carne com fritas</h1>
-          </div>
+          <div class="nomeprato2">Carne com fritas</div>
           <div class="descrição">
             <h1>Batata frita com carne ao ponto</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 20,00</h1>
-          </div>
+          <div class="preço2">R$ 20,00</div>
         </div>
-        <div class="prato">
+        <div class="prato3" onclick="SelecionarComida(this)">
           <div>
             <img src="imagens/Comida/miojo.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Miojão</h1>
-          </div>
+          <div class="nomeprato3">Miojão</div>
           <div class="descrição">
             <h1>Para aqueles que querem gastar pouco</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 5,00</h1>
-          </div>
+          <div class="preço3">R$ 5,00</div>
         </div>
-        <div class="prato">
+        <div class="prato4" onclick="SelecionarComida(this)">
           <div>
             <img src="imagens/Comida/pizza.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Pizza Italiana</h1>
-          </div>
+          <div class="nomeprato4">Pizza Italiana</div>
           <div class="descrição">
             <h1>A original, feita por italianos</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 20,00</h1>
-          </div>
+          <div class="preço4">R$ 20,00</div>
         </div>
-        <div class="prato">
+        <div class="prato5" onclick="SelecionarComida(this)">
           <div>
             <img src="imagens/Comida/salmão.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Salmão Grelhado</h1>
-          </div>
+          <div class="nomeprato5">Salmão Grelhado</div>
           <div class="descrição">
             <h1>Para aqueles que gostam de peixe</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 25,00</h1>
-          </div>
+          <div class="preço5">R$ 25,00</div>
         </div>
       </div>
       <div class="BebidaTopo">
         <h1>Agora, sua bebida</h1>
       </div>
       <div class="Bebidas">
-        <div class="bebida">
+        <div class="bebida1" onclick="SelecionarBebida(this)">
           <div>
             <img src="imagens/Bebida/coca.png" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Coca-Cola</h1>
-          </div>
+          <div class="nomebebida1">Coca-Cola</div>
           <div class="descrição">
             <h1>Lata 350ml</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 4,90</h1>
-          </div>
+          <div class="preco1">R$ 4,90</div>
         </div>
-        <div class="bebida">
+        <div class="bebida2" onclick="SelecionarBebida(this)">
           <div>
             <img src="imagens/Bebida/suco.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Suco Natural</h1>
-          </div>
+          <div class="nomebebida2">Suco Natural</div>
           <div class="descrição">
             <h1>Suco da polpa</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 3,90</h1>
-          </div>
+          <div class="preco2">R$ 3,90</div>
         </div>
-        <div class="bebida">
+        <div class="bebida3" onclick="SelecionarBebida(this)">
           <div>
             <img src="imagens/Bebida/agua.png" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Água Natural</h1>
-          </div>
+          <div class="nomebebida3">Água Mineral</div>
           <div class="descrição">
             <h1>Garrafa 600ml</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 2,90</h1>
-          </div>
+          <div class="preco3">R$ 2,90</div>
         </div>
-        <div class="bebida">
+        <div class="bebida4" onclick="SelecionarBebida(this)">
           <div>
             <img src="imagens/Bebida/caipirinha.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Caipirinha</h1>
-          </div>
+          <div class="nomebebida4">Caipirinha</div>
           <div class="descrição">
             <h1>Original do Brasil</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 10,90</h1>
-          </div>
+          <div class="preco4">R$ 10,90</div>
         </div>
-        <div class="bebida">
+        <div class="bebida5" onclick="SelecionarBebida(this)">
           <div>
             <img src="imagens/Bebida/cerveja.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Cerveja</h1>
-          </div>
+          <div class="nomebebida5">Cerveja</div>
           <div class="descrição">
             <h1>Várias Marcas</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 20,00</h1>
-          </div>
+          <div class="preco5">R$ 20,00</div>
         </div>
       </div>
       <div class="SobremesaTopo">
         <h1>Por fim, sua sobremesa</h1>
       </div>
       <div class="Sobremesas">
-        <div class="sobremesa">
+        <div class="sobremesa1" onclick="SelecionarSobremesa(this)">
           <div>
             <img src="imagens/Sobremesa/pudim.png" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Pudim</h1>
-          </div>
+          <div class="nomesobremesa1">Pudim</div>
           <div class="descrição">
             <h1>Apenas pudim</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 7,90</h1>
-          </div>
+          <div class="prec01">R$ 7,90</div>
         </div>
-        <div class="sobremesa">
+        <div class="sobremesa2" onclick="SelecionarSobremesa(this)">
           <div>
             <img src="imagens/Sobremesa/bolo.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Bolo</h1>
-          </div>
+          <div class="nomesobremesa2">Bolo</div>
           <div class="descrição">
             <h1>Vários sabores</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 10,90</h1>
-          </div>
+          <div class="prec02">R$ 10,90</div>
         </div>
-        <div class="sobremesa">
+        <div class="sobremesa3" onclick="SelecionarSobremesa(this)">
           <div>
             <img src="imagens/Sobremesa/cupcake.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Cupcake</h1>
-          </div>
+          <div class="nomesobremesa3">Cupcake</div>
           <div class="descrição">
             <h1>Vários sabores</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 5,99</h1>
-          </div>
+          <div class="prec03">R$ 5,99</div>
         </div>
-        <div class="sobremesa">
+        <div class="sobremesa4" onclick="SelecionarSobremesa(this)">
           <div>
             <img src="imagens/Sobremesa/iorgute.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Iorgute com frutas</h1>
-          </div>
+          <div class="nomesobremesa4">Iorgute com frutas</div>
           <div class="descrição">
             <h1>Vários sabores</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 6,90</h1>
-          </div>
+          <div class="prec04">R$ 6,90</div>
         </div>
-        <div class="sobremesa">
+        <div class="sobremesa5" onclick="SelecionarSobremesa(this)">
           <div>
             <img src="imagens/Sobremesa/sorvete.jpg" class="imgprato" />
           </div>
-          <div class="nomeprato">
-            <h1>Sorvete</h1>
-          </div>
+          <div class="nomesobremesa5">Sorvete</div>
           <div class="descrição">
             <h1>Vários sabores</h1>
           </div>
-          <div class="preço">
-            <h1>R$ 10,00</h1>
-          </div>
+          <div class="prec05">R$ 10,00</div>
         </div>
       </div>
     </div>
