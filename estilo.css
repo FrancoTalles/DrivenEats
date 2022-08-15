@@ -159,7 +159,8 @@
   padding-bottom: 20px;
 }
 
-.Pratos, .Bebidas{
+.Pratos,
+.Bebidas {
   padding-bottom: 20px;
 }
 
@@ -198,6 +199,31 @@
   color: #ffffff;
 }
 
+.selecionadobotao1 {
+  background-color: green;
+  box-sizing: border-box;
+  width: 88%;
+  height: 61px;
+  margin: 15px auto 0 auto;
+  border-radius: 50px;
+  position: relative;
+}
+
+.selecionadobotao2 {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  padding-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
 .prato1,
 .prato2,
 .prato3,
@@ -206,13 +232,17 @@
   position: relative;
 }
 
-.check {
+.checkcomida1,
+.checkcomida2,
+.checkcomida3,
+.checkcomida4,
+.checkcomida5 {
   position: absolute;
   right: 10px;
 }
 
-.ncheck {
-  position: absolute;
-  right: 10px;
-  display: none;
+.escondido{
+  display:none;
 }
+
+
