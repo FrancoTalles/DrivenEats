@@ -121,7 +121,7 @@ function mudança() {
 function enviarMensagem() {
   if (ativar === 3) {
     somar();
-    let celular = 55092994702103;
+    let celular = 5599999999999;
     let nome = prompt("Qual é o seu nome?");
     let endereço = prompt("Qual é o seu endereço?");
 
